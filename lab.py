@@ -1,5 +1,4 @@
-#Write a program take text file as an input and print word, character count and ascii value of 
-each characters as output. 
+#Write a program take text file as an input and print word, character count and ascii value of each characters as output. 
 def count(filename):
     try:
         with open(filename, 'r') as file:
